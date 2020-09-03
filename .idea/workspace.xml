@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="396aa17e-a002-4f89-a3a5-794c8ba30af3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1gzUceW6otmvL7S5BEYvK5cCS7o" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/calculator" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/calculator" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/Calculator" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599143096000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlUwRmpBd3lUS1R4MnNZek1PVWZZUXc9PSIsInZhbHVlIjoiaElJUy9iRTEyQWZEdnhmU29aWXpiM1JJblp6OUtNbVhSdWwzRWROUXREWXIxKzI4Q2ZrYnU3RHJJYnpMN0FIZkVBYUNwd2lmeDRDNDVrRjJEUisyQ0swUFpsR0pkZTIxeEwzd3Q1c2t0aVliTVA4eGxmQmNnSEJ5elA4MTBOMjEiLCJtYWMiOiIyM2ZiNjdmZjk1ODc5NjhhZTZkMjYzMWU1OTNiN2RkMjM2Y2Y2NjFkMjQwYmU3M2M4MzYxNTMxODliMDI1YjRkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;: &quot;Rikky&quot;,&#10;    &quot;email&quot;: &quot;rikky@sphinx-software.com&quot;,&#10;    &quot;password&quot;: &quot;Deo noi dau&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599143059000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im1hb1N4ck1SYmJpNnAvalJyaHBmeUE9PSIsInZhbHVlIjoicnZFd0htSnZOa2p1UUZQNWkxUjN1bmhtdmRtcXZ4bXk1eSt2OEV1UUgxN0FNazEwWmZBSmplcUxPeUU1QWRZaEJRQmhoekFLVWliSXdiVkVmTENOaHVyc00yZkxndUl5OExtZm1LOG5RSUFMTEpuT0dZNng2NGVzUVlVNXpmTFEiLCJtYWMiOiJhZWFlMDQxOWU1NDdkODIwNmNkMmVhMjY0ZTE3YWFiMGYzODQ2Y2Y2ZDViZDEwZDNhYzBhZGI2ZTAwZGMxZmMzIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;: &quot;Rikky&quot;,&#10;    &quot;email&quot;: &quot;rikky@sphinx-software.com&quot;,&#10;    &quot;password&quot;: &quot;Deo noi dau&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599143043000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im82UzVaS2xEaWN4dFMrelRjNDg4OXc9PSIsInZhbHVlIjoicXFhZXpHYzYrS3ZtYnRTOE1IRHJkb3lDdnBySFM3eXBEalE3c1lzWGNoUERRY2wyWUFlNFdaVkpaNDdubURnUE9vNXpIREZGMHIyRXVPZStCaDdHUTJHb1hXcGVJSExNRzNqZEtYQmVyODhWdWhYaHRwa1NiRXBURGhIL0RiNXUiLCJtYWMiOiIzZWJmNzk3N2Y0NGVlNjQwZTRlZTMyYWEyZGQ1YjZmMDU1ZmQ3YzVmYmQxN2ZmY2I3NmViZTQ2ZGM4MTc4ZWMyIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;: &quot;Rikky&quot;,&#10;    &quot;email&quot;: &quot;rikky@sphinx-software.com&quot;,&#10;    &quot;password&quot;: &quot;Deo noi dau&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599143038000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImxaVTVTRlZoaHVYYndodzJvT0lzV1E9PSIsInZhbHVlIjoiZ201VzhFVmdiakpaWkVBM0Qvd2ZwRnhoZjFKWHJXUVkzcytoZFhSYmpWRlBFSU1GNDFOcHhZQ0xWNkJkbFRRcndsWFVZL0Vhc1AxWmJwMkdjK1BXYUxNRlF2SzcwalF1MFIxODRrQnZtKzJXN0xWUGVGZHFFTmdLNkt2Z2M2enoiLCJtYWMiOiJkN2E0NzJjMTdjNzMwMGEzYWUxODcxMzQ0MjU3OTJjMWU4ZDRiYmE4MjM1YWVhMGViMTYzMjY4ZjUyMTdkODgyIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;: &quot;Rikky&quot;,&#10;    &quot;email&quot;: &quot;rikky@sphinx-software.com&quot;,&#10;    &quot;password&quot;: &quot;Deo noi dau&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599135374000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ino1YkRVaHUxbENlWHoxY25DcGNIVHc9PSIsInZhbHVlIjoiUzRzSmNsc1hwWTU3NUVMMXBLYitNdmlhSXp3b2dHU25weU1BRFBjTlhIQjhBbmo2aVgvTzhvOEZSMjFhUmp6NW8rM0hIT3FtekhqaHdWUHg2UWpYWWxYWkxlVFh5SHN5L1hINzh4akxZeWFJQUg4ZVNWN2dRcGViL3hid2l3UCsiLCJtYWMiOiJhZjg0NDNkYzc1YTRmMmFhODI5ZTJiZDE3ZjQzNGQ3N2ViODEyNDBiMGZiYTBhNmRiMDAzODA4MWZlYzdmYzJmIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1599135374000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IloyU3ZZUnFPL0VTNVBYakxJM1o1cnc9PSIsInZhbHVlIjoiR01LSXFaNTlPMHpibTM3WXRIQ3A3ODVTZEhaeVNJREZXNU14OVFDZ2ZzaGRtQVU2Z2tzNEhydTNPa1YvZXVJZ2JRMlNiUmlaSG1BOE9JampjSWdaSm92bDZlVllWNTc1L1RySEdlbzlRMEtnaTJkd29hTFlQVDRHQlJzTEk4ZFciLCJtYWMiOiIzNzJlZTg1ZGZkNWU0ZjNiODgyOGI2MDA0MjFhNTNjZjM2MDU2MDZkZmE4M2Y4Y2RkY2I5MTQ3OGQ2YjM4MWI0In0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;: &quot;Rikky&quot;,&#10;    &quot;email&quot;: &quot;rikky@sphinx-software.com&quot;,&#10;    &quot;password&quot;: &quot;Deo noi dau&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599135007000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InIrbGVJV29wVHI0bU54Nkh3cHhqTHc9PSIsInZhbHVlIjoiZXV2d0RKcWJiV1hpQnV5azBvL1R6TjBIOWJ1TklXVkQyRitub0c0UDh4OHlvZGw0VWo4cklub0dqT3hRNE40bmVBK1ZjMjJLWUk0TTEzZHdIQVNxN2Rtdk5INTZhbm5vOEluVGpzOVB2M1VDWmJtanVkWW5nYmZlekdSaVRGc1oiLCJtYWMiOiIxMWNjYWRlNDllZTFlOTgwYTZmMTkyMGE0NDczNmE4NDllNjUwZmY5M2I1OGQ0MWZjZWViYTMxMzAwOTVlY2JjIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1599135007000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlRuT0oySlh5Ym1DK3hab2hWd2xrS2c9PSIsInZhbHVlIjoiWEdRYkhqcUlCOFk0Tk9Ua1NKaHY4dlNZNVZWajhEdm54MEJXdGIzdnc0Mm5UbmRlc01iTVZkQU1iT2hJaFpUT3lUN2J6SGt6L1RPamhOVXRkcGI3aHYyc25tTldKbUpjRlc3bTk2ODQyQyt6czNENEZOOWRkL3BGWFA3anJvUmIiLCJtYWMiOiI3MTZiYjM3ZTY4MTJmNWNhYmZjYjFjNDIxMmNjNWM2MDAyMzIxOTQ2NDgxMmFmMDhkM2ZlZjAxYTczM2RlN2NmIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/calculator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="abc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="body" />
+                <option name="value" value="def" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599134984000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Inp0K0FkV1dqeE8rT0IwdFo1TVhyN0E9PSIsInZhbHVlIjoiR094RzNvdWgwTTBtR0I1MzZBWlpYL0RmcXVDTExqdERWTytQNnhSYjZ0dk9GZzA0a28vZVh6M2Nob3UyR01iK2pEazFSSWhINzFYY2JUSlVaRWZnWlM5bjZpVFhyNzhlZW9PTk9ZUzBRRTVsL1BCaUpUS1pKQnRyQnBCVjc5MFkiLCJtYWMiOiJjMzFlOWZmZmY3ZmY0MTI4MTY2ZWM2YzM0MTIxNDg0YmU1MTk0ZTQzNzM4ZDEzNmJlMGVlOWIwZThmYjRiYzlkIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1599134984000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ikk0ZTRXQ0JVdkJZY0w1dkpBTGZOUHc9PSIsInZhbHVlIjoidEdoenczZDkyaTA4Rmg4bG5ONStJRUtjVWVKcUxJdUh4ZXdCZzNzd0svc2JDdmtYMkpVVGRuODhKaWttdXVWZWJLaTBFLy93ck5VK1ZGdXE5ZkVSVnVVbzVyRnNJazhMcnRnYTh1U1hCY1EweXBucEtMR2JHbWJ5TkNYUTNMYnMiLCJtYWMiOiJiZmUyMzc5MWJjZjJhMTEyMTg3MWZiZTNhN2U2ZGQwZWRjMGY5YWVlODQ3NTlmZTNkNTA5NTBjOGU3OWU2NjI3In0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/calculator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="abc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="body" />
+                <option name="value" value="def" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599134939000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkpVN2VBSkE3WUo0aGFJaXRIMkNiZ2c9PSIsInZhbHVlIjoiZCt3cUFyZGZKR0twZzczSVVHRER1VFhSOE5kVnpGSlppc3hzK1NHcXR4MWRlY1BtMkJ0MFcvUjZ6RW5FSXAzTzNMQVJOL1FiUXlKNGdQVUJaMWxKbjN1L1VxK1VNVFUzY0h2amF3T29kTzM1K0wyVjVJY2pUUXN1K0VEZGZlTzYiLCJtYWMiOiI2ODhhZWQ3MzZhNDlhZjUyMWMwOTgwMWJkZDMxMjFjOGJlMWVmOGQxNGJkNjM5OGE5ZWE2NmU4OWQ2NGVkNmIwIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1599134939000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjdISVQ2QlRiQ3pVelBna2syN0xGelE9PSIsInZhbHVlIjoidmpvTW91Ly8wbTYzNDhlNy9oZTZXWEJid053SUZyYUhoNStjMHU4dnA0WWFuVUQ2T2xKNFdvTVh3eVNEZXlkMWZMZm41b1VJMHNPZVg3aHBGUUZnY1JFcVlwaUwxZ1VsclNCY1pNQ0dHMmNuNjVVcnJMelJGM1hxUUczV3BiWGoiLCJtYWMiOiI5MmQ5Njc4ZWRhZTI3ZThhNGVlYjIzZGJhMWNjY2Y0NjY1NTQ2MDU3ODNhMzBhZjhiN2U0MTA1ZWMxMTk3YWU5In0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/calculator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="abc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="body" />
+                <option name="value" value="def" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1599134722000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InBhbmxWU0RNVFNybUl0a3B5Mnd6ZVE9PSIsInZhbHVlIjoiTXMzaEZUUkt2M3Nwdi9JeDd3Ty9BV2JNKzhHMGZJY2ZaVlZ1endXYjhpZkFPLzU3b1RJSTg2Q2k4Z3p2Q284MWxJcTFHSGlqaVBkb2prNU9LQkQ2K1BYbFN3cG1iVklUdEVUYVpEVmVpenlGdmhQa3FZZzAvR1cyTVV5Ry9PTmMiLCJtYWMiOiJlZjQ4MDEzNWJhNDBiM2Q1NWUwNzQ5NzI1NTA5MjMwODI3NmQ3ZjdmMzZhNGVjZDM5MDgwNGFjYzM0NmUzYmEzIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1599134722000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImpaRTczS0ozZGl4eXhTeUFSNWNYa0E9PSIsInZhbHVlIjoiaU9sQVIzOG9jVVdKeWtjZW9vd3Y4WFBXTzhBanZLVXdieWVYVWovZ1FSOHBseHhQUFl0UmtWdENuazVmV21KZVFtanRPa1Z2SFBBS3NSVHE4OU5Rc3B5NVFKc0R6K2RtdVZ3VHNnRHFEKytwY0R0YktmWGFpc0xGMi91VFBpR2siLCJtYWMiOiI1ZmFjNjc4NzBjMjJlZjA5ZWY4NTg4OGFjMmU0YjBiYjY0OWU2MTM0NGJhMWJkNDg0YmE5ZTMzZDIyZDc2MDUyIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/calculator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/calculator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="Test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/Test.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/Test.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.Test#2" />
+        <item itemvalue="HTTP Request.Test#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="396aa17e-a002-4f89-a3a5-794c8ba30af3" name="Default Changelist" comment="" />
+      <created>1599116995233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599116995233</updated>
+      <workItem from="1599116996384" duration="6596000" />
+      <workItem from="1599126202066" duration="10452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599135265769">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="371" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599135265769" />
+    <state x="2104" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599119722667" />
+    <state x="575" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599134986713">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="575" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1599134986713" />
+    <state x="2449" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1599124323799">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2449" y="240" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599124323799" />
+    <state x="611" y="305" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599133192042">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="611" y="305" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599133192042" />
+    <state x="2378" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599120253392" />
+    <state width="1638" height="511" key="GridCell.Tab.0.bottom" timestamp="1599136214479">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="511" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599136214479" />
+    <state width="1638" height="511" key="GridCell.Tab.0.center" timestamp="1599136214478">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="511" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599136214478" />
+    <state width="1638" height="511" key="GridCell.Tab.0.left" timestamp="1599136214477">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="511" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599136214477" />
+    <state width="1638" height="511" key="GridCell.Tab.0.right" timestamp="1599136214478">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="511" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599136214478" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1599135158748">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1680.1027@0.23.1680.1027" timestamp="1599135158748" />
+    <state x="592" y="277" key="NewPhpClassDialog" timestamp="1599135351017">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="592" y="277" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599135351017" />
+    <state x="2356" y="284" key="NewPhpClassDialog/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599123738658" />
+    <state x="2149" y="190" key="SettingsEditor" timestamp="1599122181891">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2149" y="190" key="SettingsEditor/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599122181891" />
+    <state x="541" y="291" width="598" height="490" key="find.popup" timestamp="1599130472739">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="541" y="291" width="598" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599130472739" />
+    <state x="547" y="251" width="670" height="657" key="search.everywhere.popup" timestamp="1599135877587">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="547" y="251" width="670" height="657" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599135877587" />
+    <state x="2305" y="258" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.977@1680.23.1920.1057" timestamp="1599124254172" />
+  </component>
+</project>

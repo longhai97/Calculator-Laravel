@@ -1,0 +1,14 @@
+GET http://localhost:8000/calculator?title=abc&body=def
+Accept: application/json
+
+###
+
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}

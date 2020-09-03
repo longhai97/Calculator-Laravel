@@ -1,0 +1,489 @@
+{
+    "message": "SQLSTATE[HY000] [2002] Connection refused (SQL: select count(*) as aggregate from `posts` where `title` = abc)",
+    "exception": "Illuminate\\Database\\QueryException",
+    "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+    "line": 671,
+    "trace": [
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+            "line": 745,
+            "function": "runQueryCallback",
+            "class": "Illuminate\\Database\\Connection",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+            "line": 725,
+            "function": "tryAgainIfCausedByLostConnection",
+            "class": "Illuminate\\Database\\Connection",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+            "line": 634,
+            "function": "handleQueryException",
+            "class": "Illuminate\\Database\\Connection",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+            "line": 339,
+            "function": "run",
+            "class": "Illuminate\\Database\\Connection",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2260,
+            "function": "select",
+            "class": "Illuminate\\Database\\Connection",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2248,
+            "function": "runSelect",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2743,
+            "function": "Illuminate\\Database\\Query\\{closure}",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2249,
+            "function": "onceWithColumns",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2670,
+            "function": "get",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+            "line": 2598,
+            "function": "aggregate",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/DatabasePresenceVerifier.php",
+            "line": 55,
+            "function": "count",
+            "class": "Illuminate\\Database\\Query\\Builder",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php",
+            "line": 765,
+            "function": "getCount",
+            "class": "Illuminate\\Validation\\DatabasePresenceVerifier",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+            "line": 547,
+            "function": "validateUnique",
+            "class": "Illuminate\\Validation\\Validator",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+            "line": 370,
+            "function": "validateAttribute",
+            "class": "Illuminate\\Validation\\Validator",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+            "line": 401,
+            "function": "passes",
+            "class": "Illuminate\\Validation\\Validator",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php",
+            "line": 25,
+            "function": "fails",
+            "class": "Illuminate\\Validation\\Validator",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Providers/FormRequestServiceProvider.php",
+            "line": 30,
+            "function": "validateResolved",
+            "class": "Illuminate\\Foundation\\Http\\FormRequest",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+            "line": 1141,
+            "function": "Illuminate\\Foundation\\Providers\\{closure}",
+            "class": "Illuminate\\Foundation\\Providers\\FormRequestServiceProvider",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+            "line": 1105,
+            "function": "fireCallbackArray",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+            "line": 1090,
+            "function": "fireAfterResolvingCallbacks",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+            "line": 711,
+            "function": "fireResolvingCallbacks",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+            "line": 796,
+            "function": "resolve",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+            "line": 637,
+            "function": "resolve",
+            "class": "Illuminate\\Foundation\\Application",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+            "line": 781,
+            "function": "make",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php",
+            "line": 79,
+            "function": "make",
+            "class": "Illuminate\\Foundation\\Application",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php",
+            "line": 48,
+            "function": "transformDependency",
+            "class": "Illuminate\\Routing\\ControllerDispatcher",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php",
+            "line": 28,
+            "function": "resolveMethodDependencies",
+            "class": "Illuminate\\Routing\\ControllerDispatcher",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php",
+            "line": 41,
+            "function": "resolveClassMethodDependencies",
+            "class": "Illuminate\\Routing\\ControllerDispatcher",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+            "line": 239,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\ControllerDispatcher",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+            "line": 196,
+            "function": "runController",
+            "class": "Illuminate\\Routing\\Route",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 685,
+            "function": "run",
+            "class": "Illuminate\\Routing\\Route",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Routing\\{closure}",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php",
+            "line": 41,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+            "line": 77,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php",
+            "line": 49,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php",
+            "line": 116,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php",
+            "line": 62,
+            "function": "handleStatefulRequest",
+            "class": "Illuminate\\Session\\Middleware\\StartSession",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Session\\Middleware\\StartSession",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php",
+            "line": 67,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 687,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 662,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 628,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 617,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 165,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+            "line": 63,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/fruitcake/laravel-cors/src/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/fideloper/proxy/src/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 140,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 109,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/public/index.php",
+            "line": 55,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "/Users/haiboo/Desktop/Laravel-Trainging-master/server.php",
+            "line": 21,
+            "function": "require_once"
+        }
+    ]
+}

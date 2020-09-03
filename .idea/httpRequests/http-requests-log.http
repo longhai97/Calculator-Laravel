@@ -1,0 +1,100 @@
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}
+
+<> 2020-09-03T072537.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}
+
+<> 2020-09-03T072456.500.html
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}
+
+<> 2020-09-03T072419.500.html
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}
+
+<> 2020-09-03T072403.419.html
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Rikky",
+    "email": "rikky@sphinx-software.com",
+    "password": "Deo noi dau"
+}
+
+<> 2020-09-03T072358.419.html
+
+###
+
+GET http://localhost:8000/calculator?title=abc&body=def
+Accept: application/json
+
+<> 2020-09-03T051614.422.json
+
+###
+
+GET http://localhost:8000/calculator?title=abc&body=def
+Accept: application/json
+
+<> 2020-09-03T051007.200.json
+
+###
+
+GET http://localhost:8000/calculator?title=abc&body=def
+Accept: application/json
+
+<> 2020-09-03T050944.500.json
+
+###
+
+GET http://localhost:8000/calculator
+Accept: application/json
+
+<> 2020-09-03T050859.422.json
+
+###
+
+GET http://localhost:8000/calculator
+Accept: application/json
+
+<> 2020-09-03T050522.422.json
+
+###
+
