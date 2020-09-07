@@ -1,5 +1,6 @@
 <?php
 
+
 return [
 
     /*
@@ -178,7 +179,7 @@ return [
         /*
          * Calculator Service
          */
-        Calculator\CalculatorServiceProvider::class
+        Calculator\CalculatorServiceProvider::class,
 
     ],
 

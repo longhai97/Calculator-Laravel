@@ -1,14 +1,10 @@
 <?php
 
-
 namespace Calculator;
 
-
-use App\User;
 use Calculator\Operators\Subtraction;
 use Calculator\Operators\Sum;
 use Carbon\Laravel\ServiceProvider;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Psr\Log\LoggerInterface;
 
